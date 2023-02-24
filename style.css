@@ -30,11 +30,14 @@ a{
     gap: 43px;
     list-style: none;
 }
-
+.list li{
+    cursor: pointer;
+}
 .list li a{
     color:black ;
     font-size: 12px;
     font-weight: 600;
+    font-family: "Poppins";
 }
 .btn button a{
     color: white;
@@ -46,6 +49,8 @@ a{
     border: none;
     border-radius: 6px;
     height: 30px;
+    font-family: "Poppins";
+    cursor: pointer;
 }
 button:hover{
     background-color: white;
@@ -62,6 +67,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Poppins";
 }
 
 span{
@@ -72,9 +78,11 @@ span{
 }
 .text{
     padding: 50px 0 0 0;
+    font-family: "Poppins";
 }
 .small-text{
     padding-top: 15px;
+    font-family: "Poppins";
 }
 .small-text {
     font-size: 10px;
